@@ -1,5 +1,9 @@
-a = list(map(float, input("Введите список:").split()))
-C = float(input("С="))
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+if __name__ == '__main__':
+    a = list(map(float, input("Введите список:").split()))
+    C = float(input("С="))
 
 count = 0
 for elem in a:
@@ -23,7 +27,7 @@ else:
         res *= elem
     print("Произведение чисел после максимального по модулю числа", res)
 
-a_pos = []
+a_pos = [] 
 a_neg = []
 
 for elem in a:
